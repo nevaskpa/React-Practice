@@ -3,7 +3,7 @@ import "./App.css";
 // import ComponentA from "./components/ComponentA";
 // import ComponentB from "./components/ComponentB";
 // import ComponentC from "./components/ComponentC";
-import DataFetching3 from "./components/DataFetching3";
+// import DataFetching3 from "./components/DataFetching3";
 // import Counter4 from "./components/Counter4";
 // import Counter2 from "./components/Counter2";
 // import Counter3 from "./components/Counter3";
@@ -12,6 +12,7 @@ import DataFetching3 from "./components/DataFetching3";
 // import Counter from "./components/Counter";
 // import DisplayName from "./components/DisplayName";
 // import DisplayList from "./components/DisplayList";
+import Edit from "./components/Edit";
 
 // export const UserContext = React.createContext();
 
@@ -49,7 +50,7 @@ function App() {
     //     <ComponentC />
     //   </div>
     // </CountContext.Provider>
-    <DataFetching3 />
+    <Edit />
   );
 }
 
